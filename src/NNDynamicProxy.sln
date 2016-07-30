@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDynamicProxy", "NDynamicProxy\NDynamicProxy.csproj", "{B7E5988E-B1A8-4990-A0D2-5CC3AEDC9EA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDynamicProxy.Tests", "NDynamicProxy.Tests\NDynamicProxy.Tests.csproj", "{67832671-043D-4060-B3AD-BA8C97CE9297}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionInfo", "SolutionInfo", "{4262C2D5-39AD-4CB0-BAB7-9C13B44D44F9}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		CommonAssemblyInfo.cs = CommonAssemblyInfo.cs
+		..\LICENSE = ..\LICENSE
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7E5988E-B1A8-4990-A0D2-5CC3AEDC9EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E5988E-B1A8-4990-A0D2-5CC3AEDC9EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E5988E-B1A8-4990-A0D2-5CC3AEDC9EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E5988E-B1A8-4990-A0D2-5CC3AEDC9EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67832671-043D-4060-B3AD-BA8C97CE9297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67832671-043D-4060-B3AD-BA8C97CE9297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67832671-043D-4060-B3AD-BA8C97CE9297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67832671-043D-4060-B3AD-BA8C97CE9297}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
